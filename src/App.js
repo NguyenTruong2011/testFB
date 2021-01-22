@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import React from "react";
-import ReactDOM from "react-dom";
+
+
 import MessengerCustomerChat from "react-messenger-customer-chat";
 function App() {
   return (
@@ -20,9 +20,10 @@ function App() {
           Learn React
         </a>
       </header>
-      ReactDOM.render(
-      <MessengerCustomerChat pageId="104070968351699" appId="221465953034852" />
-      , document.getElementById("demo"));
+      <MessengerCustomerChat
+        pageId="104070968351699"
+        appId="2732555957005200"
+      />
     </div>
   );
 }
